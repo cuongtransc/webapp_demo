@@ -1,7 +1,5 @@
 web:
-    image: ghd3/counter:0.1
-    volumes:
-        - ./code/:/code
+    image: tranhuucuong91/webapp_demo
     ports:
         - "80:5000"
     links:
@@ -9,4 +7,6 @@ web:
 
 redis:
     image: redis:3.0
+    #ports:
+        #- "6379:6379"
 

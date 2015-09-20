@@ -1,5 +1,5 @@
 all: build
 
 build:
-	docker build --tag=ghd3/counter:0.1 .
+	docker build --tag=tranhuucuong91/webapp_demo .
 
